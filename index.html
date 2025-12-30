@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tools Hub — Calculators & Converters</title>
-  <meta name="description" content="Free calculators and file tools: BMI, loan, date difference, image compressor, JPG↔PNG, image to PDF, merge/split PDFs." />
+  <title>Tools Hub — Calculators, Converters & Utilities</title>
+  <meta name="description" content="Free calculators, PDF tools, image converters, and text utilities running fully in your browser. Works on GitHub Pages." />
   <link rel="stylesheet" href="./styles.css" />
 
-  <!-- AdSense placeholder (add your real code after approval)
+  <!-- AdSense placeholder (paste your real AdSense snippet after approval)
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=YOUR_CLIENT_ID"
     crossorigin="anonymous"></script>
   -->
@@ -20,7 +20,7 @@
         <div class="brand__logo">⚙️</div>
         <div>
           <div class="brand__name">Tools Hub</div>
-          <div class="brand__tag">Calculators & Converters (static GitHub Pages)</div>
+          <div class="brand__tag">Static • Client-side • GitHub Pages</div>
         </div>
       </div>
 
@@ -28,13 +28,14 @@
         <a href="#/home" class="nav__link">Home</a>
         <a href="#/calculators" class="nav__link">Calculators</a>
         <a href="#/converters" class="nav__link">Converters</a>
+        <a href="#/text-tools" class="nav__link">Text Tools</a>
       </nav>
     </div>
   </header>
 
   <main class="container main">
     <section class="topbar">
-      <input id="search" class="input" placeholder="Search tools (e.g., BMI, loan, PNG, merge pdf)..." />
+      <input id="search" class="input" placeholder="Search tools (BMI, mortgage, merge PDF, PNG, hash, JSON…)..." />
       <div class="pill" id="statusPill">Ready</div>
     </section>
 
@@ -45,9 +46,7 @@
 
         <div class="ad-box">
           <div class="ad-box__label">Ad space</div>
-          <div class="ad-box__content">
-            Add your AdSense unit here later.
-          </div>
+          <div class="ad-box__content">Place an AdSense unit here later.</div>
         </div>
       </aside>
 
@@ -55,9 +54,7 @@
         <div id="view"></div>
 
         <footer class="footer">
-          <div>
-            Built for GitHub Pages. Some converters (PDF→Word etc.) require a backend and are not included here.
-          </div>
+          <div>All processing is in-browser. No uploads.</div>
           <div class="footer__links">
             <a href="#/privacy">Privacy</a>
             <a href="#/about">About</a>
@@ -67,7 +64,7 @@
     </div>
   </main>
 
-  <!-- pdf-lib for PDF merge/split + image-to-pdf (client-side) -->
+  <!-- PDF tools (merge/split/rotate/reorder/extract) -->
   <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
   <script src="./app.js"></script>
 </body>
